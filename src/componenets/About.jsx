@@ -13,13 +13,13 @@ function About() {
   return (
     <div
       id="About"
-      className="lg:px-56 px-10 lg:py-0 py-18 text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28  items-center"
+      className="lg:px-56 px-10 lg:py-0 py-32 md:py-18 lg:py-18  text-center gap-5 lg-text-start flex lg:flex-row flex-col justify-between lg:gap-28  items-center"
     >
       <img
         src={Profileimage}
         alt="Profile"
         data-aos="zoom-out"
-        className="w-72 h-72 rounded-full shadow-lg hover:shadow-fuchsia-800/100 border-4 hover:bg-fuchsia-800 border-fuchsia-800 mb-10 lg:mb-0"
+        className="w-full h-auto md:w-72 md:h-72 rounded-full shadow-lg hover:shadow-fuchsia-800/100 border-4 hover:bg-fuchsia-800 border-fuchsia-800 mb-10 lg:mb-0"
       />
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white mt-0">
         <h2
